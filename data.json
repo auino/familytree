@@ -1,0 +1,78 @@
+{
+	"title": "My Family",
+	"lastupdate": "Jan 1st, 2017",
+	"parent":
+	{
+		"id": "",
+		"name": "My",
+		"surname": "Family",
+		"sex": "",
+		"birthdate": "",
+		"deathdate": "",
+		"photo": "",
+		"contacts": {
+			"phone": "",
+			"whatsapp": "",
+			"facebook": "",
+			"twitter": "",
+			"email": ""
+		},
+		"location": {
+			"city": "",
+			"country": "",
+			"lat": "",
+			"lon": ""
+		},
+		"sons": [
+			{
+				"id": "firstson",
+				"name": "One",
+				"surname": "Family",
+				"sex": "female",
+				"birthdate": "01/01/1951",
+				"deathdate": "",
+				"photo": "",
+				"contacts": {
+					"phone": "",
+					"whatsapp": "",
+					"facebook": "",
+					"twitter": "",
+					"email": ""
+				},
+				"location": {
+					"city": "",
+					"country": "",
+					"lat": "",
+					"lon": ""
+				},
+				"sons": [
+				]
+			},
+			{
+				"id": "secondson",
+				"name": "Two",
+				"surname": "Surname",
+				"sex": "female",
+				"birthdate": "02/02/1952",
+				"deathdate": "",
+				"photo": "",
+				"contacts": {
+					"phone": "",
+					"whatsapp": "",
+					"facebook": "",
+					"twitter": "",
+					"email": ""
+				},
+				"location": {
+					"city": "",
+					"country": "",
+					"lat": "",
+					"lon": ""
+				},
+				"sons": [
+				]
+			}
+		]
+	}
+}
+
