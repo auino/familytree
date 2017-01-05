@@ -37,7 +37,7 @@ The `parent` property is composed of a `Person` object, structured in the follow
 			"phone": "+39 06 1234567",
 			"whatsapp": "+39 06 1234567",
 			"facebook": "mario.rossi",
-			"facebookid": "",
+			"facebookid": "1234567",
 			"twitter": "mario.rossi",
 			"email": "mario.rossi@example.com"
 		},
@@ -53,26 +53,28 @@ The `parent` property is composed of a `Person` object, structured in the follow
 ```
 
 Following properties are part of the `Person` object.
- * `id` (optional)
- * `name`
- * `surname`
- * `sex`
- * `birthdate`
- * `deathdate` (optional)
- * `photo` (optional, currently not supported)
- * `contacts`
-  - `phone`
-  - `whatsapp`
-  - `facebook`
-  - `facebookid`
-  - `twitter`
-  - `email`
- * `location`
-  - `city`
-  - `country`
-  - `lat`
-  - `lon`
- * `sons`
+ * `id`: a unique identifier used to provide the ability to open a specific page showing the relative sub-tree when the person name is clicked
+ * `name` (required): name of the person
+ * `surname` (required): surname of the person
+ * `sex`: sex of the person (`male`, `female` or anything else)
+ * `birthdate`: date of birth of the person
+ * `deathdate`: date of death of the person
+ * `photo` (currently not supported): a link to a picture of the person
+ * `contacts`: including contact information:
+  - `phone`: phone number
+  - `whatsapp`: WhatsApp number
+  - `facebook`: Facebook name
+  - `facebookid`: Facebook identifier (in order to obtain it, see https://www.graphsearcher.com)
+  - `twitter`: Twitter username
+  - `email`: email address
+ * `location`: including location information:
+  - `city`: city name
+  - `country`: country name
+  - `lat`: location latitude (in order to obtain it, see http://getlatlon.yohman.com)
+  - `lon`: location longitude (in order to obtain it, see http://getlatlon.yohman.com)
+ * `sons`, a list of sons/subnodes, defined as `Person` objects
+
+You can see an example on the [data.json] file.
 
 ### Credits ###
 
