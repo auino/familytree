@@ -74,7 +74,7 @@ Following properties are part of the `Person` object.
   - `lon`: location longitude (in order to obtain it, see http://getlatlon.yohman.com)
  * `sons`, a list of sons/subnodes, defined as `Person` objects
 
-You can see an example on the [data.json] file.
+You can see an example on the [data.json](data.json) file.
 
 ### Credits ###
 
